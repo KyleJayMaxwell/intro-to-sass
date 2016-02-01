@@ -1,0 +1,55 @@
+@import "variables";
+@import "mixins";
+
+body{
+  background-color: $light;
+
+  .container{
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  h1 {
+    margin-bottom: 5%;  
+  }
+
+  .register{
+    text-align: center;
+  }
+
+}
+
+form {
+    width: 100%;
+    background-color: $light;
+    height: 200px;
+    
+    label{
+      display: block;
+      font-size: 24px;
+      margin-top: 4%;
+      margin-left: 3%;
+    }
+
+    input{
+      display: block;
+      width: 80%;
+      margin-left: 3%;
+    }
+  }
+
+
+// SCSS can lighten or darker colors
+//lighten(color, percent)
+
+
+// Sass can nest things
+// .container {
+//   a {
+//     text-transform: uppercase;
+//   }
+
+//   form {
+//     background-color: blue;
+//   }
+// }
